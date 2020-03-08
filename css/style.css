@@ -1,0 +1,53 @@
+/* line 7, ../sass/style.scss */
+body {
+  background-color: #e74c3c;
+}
+
+/* line 11, ../sass/style.scss */
+.paragraph {
+  color: #3cd7e7;
+}
+
+/* line 20, ../sass/style.scss */
+a:hover {
+  color: #7b190f;
+}
+/* line 23, ../sass/style.scss */
+a::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+
+/* line 34, ../sass/style.scss */
+.card {
+  background-color: white;
+  border: 2px solid #e74c3c;
+}
+/* line 38, ../sass/style.scss */
+.card .cardBody {
+  colour: #e74c3c;
+  text-align: right;
+}
+/* line 42, ../sass/style.scss */
+.card .cardBody .cardTitle {
+  font-style: 2em;
+}
+
+/* line 72, ../sass/style.scss */
+.div1 {
+  border: 10px soled black;
+  float: left;
+  text-align: center;
+  color: red;
+}
+
+/* line 76, ../sass/style.scss */
+.div2 {
+  border: 10px soled black;
+  float: left;
+  text-align: center;
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */

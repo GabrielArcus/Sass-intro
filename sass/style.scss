@@ -1,0 +1,79 @@
+@import 'nav';
+
+//variables
+$redColour: #e74c3c;
+
+
+body{
+    background-color: $redColour;
+}
+
+.paragraph{
+    color: complement($redColour);
+}
+
+// a:hover{
+//     color: darken($redColour, 30%);
+// }
+
+a{
+    &:hover{
+        color: darken($redColour, 30%);
+    }
+    &::after{
+        clear: both;
+        display: block;
+        content: '';
+    }
+}
+.col{
+
+}
+
+// nesting example
+.card{
+    background-color: white;
+    border: 2px solid $redColour;
+
+    .cardBody{
+        colour: $redColour;
+        text-align: right;
+
+        .cardTitle{
+                font-style: 2em;
+
+        }
+    }
+}
+
+
+//mixins example
+
+// set of styles used on more than one element 3 or more times
+
+// .div1{
+//     border: 10px soled black;
+//     float: left;
+//     text-align: center;
+//     color: red;
+// }
+// .div2{
+//     border: 10px soled black;
+//     float: left;
+//     text-align: center;
+//     color: blue;
+// }
+
+@mixin divStyle{
+    border: 10px soled black;
+    float: left;
+    text-align: center;
+}
+.div1{
+    @include divStyle;
+    color: red;
+}
+.div2{
+    @include divStyle;
+    color: blue;
+}
