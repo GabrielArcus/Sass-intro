@@ -1,40 +1,130 @@
-/* line 7, ../sass/style.scss */
+/* line 8, ../sass/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* line 17, ../sass/_grid.scss */
+.col1 {
+  width: 8.3333333333%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 17, ../sass/_grid.scss */
+.col2 {
+  width: 16.6666666667%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 17, ../sass/_grid.scss */
+.col3 {
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 17, ../sass/_grid.scss */
+.col4 {
+  width: 33.3333333333%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 17, ../sass/_grid.scss */
+.col5 {
+  width: 41.6666666667%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 17, ../sass/_grid.scss */
+.col6 {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 17, ../sass/_grid.scss */
+.col7 {
+  width: 58.3333333333%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 17, ../sass/_grid.scss */
+.col8 {
+  width: 66.6666666667%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 17, ../sass/_grid.scss */
+.col9 {
+  width: 75%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 17, ../sass/_grid.scss */
+.col10 {
+  width: 83.3333333333%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 17, ../sass/_grid.scss */
+.col11 {
+  width: 91.6666666667%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 17, ../sass/_grid.scss */
+.col12 {
+  width: 100%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 8, ../sass/style.scss */
 body {
   background-color: #e74c3c;
 }
 
-/* line 11, ../sass/style.scss */
+/* line 12, ../sass/style.scss */
 .paragraph {
   color: #3cd7e7;
 }
 
-/* line 20, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 a:hover {
   color: #7b190f;
 }
-/* line 23, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 a::after {
   clear: both;
   display: block;
   content: '';
 }
 
-/* line 34, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 .card {
   background-color: white;
   border: 2px solid #e74c3c;
 }
-/* line 38, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 .card .cardBody {
   colour: #e74c3c;
   text-align: right;
 }
-/* line 42, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .card .cardBody .cardTitle {
   font-style: 2em;
 }
 
-/* line 72, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 .div1 {
   border: 10px soled black;
   float: left;
@@ -42,7 +132,7 @@ a::after {
   color: red;
 }
 
-/* line 76, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 .div2 {
   border: 10px soled black;
   float: left;

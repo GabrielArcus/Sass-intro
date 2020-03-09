@@ -1,0 +1,21 @@
+$columns: 12;
+$columnWidth: 100% / $columns;
+@mixin column{
+    float: left;
+    padding: 10px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.row{
+    
+}
+
+@for $i from 1 through $columns{
+    .col#{$i}{
+        width: $columnWidth * $i;
+        @include column
+    }
+}
